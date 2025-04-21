@@ -1,0 +1,41 @@
+movie-booking-app/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── cinetickets/
+│   │   │           ├── controller/
+│   │   │           │   ├── MovieServlet.java
+│   │   │           │   ├── BookingServlet.java
+│   │   │           │   └── ConfirmationServlet.java
+│   │   │           ├── dao/
+│   │   │           │   ├── MovieDAO.java
+│   │   │           │   ├── ShowtimeDAO.java
+│   │   │           │   └── BookingDAO.java
+│   │   │           ├── model/
+│   │   │           │   ├── Movie.java
+│   │   │           │   ├── Showtime.java
+│   │   │           │   ├── Seat.java
+│   │   │           │   └── Booking.java
+│   │   │           └── util/
+│   │   │               └── DatabaseUtil.java
+│   │   ├── webapp/
+│   │   │   ├── WEB-INF/
+│   │   │   │   ├── web.xml
+│   │   │   │   └── lib/
+│   │   │   ├── index.jsp
+│   │   │   ├── movie-details.jsp
+│   │   │   ├── booking.jsp
+│   │   │   ├── confirmation.jsp
+│   │   │   ├── css/
+│   │   │   │   └── styles.css
+│   │   │   └── js/
+│   │   │       ├── main.js
+│   │   │       ├── movie-details.js
+│   │   │       ├── booking.js
+│   │   │       └── confirmation.js
+│   │   └── resources/
+│   │       └── db/
+│   │           └── schema.sql
+│   └── test/
+└── pom.xml
